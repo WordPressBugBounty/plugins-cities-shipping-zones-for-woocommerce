@@ -4,7 +4,7 @@
  * Plugin Name: Cities Shipping Zones for WooCommerce
  * Plugin URI: https://en.condless.com/cities-shipping-zones-for-woocommerce/
  * Description: WooCommerce plugin for turning the state field into a dropdown city field. To be used as shipping zones.
- * Version: 1.2.9
+ * Version: 1.3
  * Author: Condless
  * Author URI: https://en.condless.com/
  * Developer: Condless
@@ -15,10 +15,10 @@
  * License: GPLv2 or later
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
  * Requires at least: 5.2
- * Tested up to: 6.7
+ * Tested up to: 6.8
  * Requires PHP: 7.0
  * WC requires at least: 3.4
- * WC tested up to: 9.4
+ * WC tested up to: 9.8
  */
 
 /**
