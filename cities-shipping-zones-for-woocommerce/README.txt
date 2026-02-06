@@ -2,9 +2,9 @@
 Contributors: condless
 Tags: dropdown, city, shipping zone, shipping method
 Requires at least: 5.2
-Tested up to: 6.8
+Tested up to: 6.9
 Requires PHP: 7.0
-Stable tag: 1.3
+Stable tag: 1.3.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -76,6 +76,9 @@ Create shipping zone and select the country itself and drag this shipping zone t
 The cities list must be minimized. if it's slow only in the frontend this could be done with the 'Selling Locations' option, otherwise with the 'csz_cities'/'csz_states' filters and consider using the 'Custom City' feature (instructions in docs).
 
 == Changelog ==
+
+= 1.3.1 - December 23, 2025 =
+* Enhancement - WordPress version compatibility
 
 = 1.3 - May 8, 2025 =
 * Enhancement - WordPress version compatibility
