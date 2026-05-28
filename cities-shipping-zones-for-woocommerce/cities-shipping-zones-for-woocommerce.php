@@ -4,7 +4,7 @@
  * Plugin Name: Cities Shipping Zones for WooCommerce
  * Plugin URI: https://en.condless.com/cities-shipping-zones-for-woocommerce/
  * Description: WooCommerce plugin for turning the state field into a dropdown city field. To be used as shipping zones.
- * Version: 1.3.1
+ * Version: 1.3.2
  * Author: Condless
  * Author URI: https://en.condless.com/
  * Developer: Condless
@@ -18,7 +18,7 @@
  * Tested up to: 6.9
  * Requires PHP: 7.0
  * WC requires at least: 3.4
- * WC tested up to: 10.4
+ * WC tested up to: 10.8
  */
 
 /**
@@ -1042,10 +1042,12 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 		 */
 		public function wc_locale_state_city( $locale ) {
 			foreach ( get_option( 'wc_csz_countries_codes' ) as $country_code ) {
-				$locale[ $country_code ]['state']['required'] = $locale[ $country_code ]['city']['hidden'] = true;
+				$locale[ $country_code ]['state']['hidden'] = false;
+				$locale[ $country_code ]['state']['required'] = true;
 				$locale[ $country_code ]['state']['label'] = __( 'City', 'woocommerce' );
 				$locale[ $country_code ]['state']['priority'] = 45;
 				$locale[ $country_code ]['state']['class'][] = 'update_totals_on_change';
+				$locale[ $country_code ]['city']['hidden'] = true;
 				$locale[ $country_code ]['city']['required'] = false;
 			}
 			return $locale;
