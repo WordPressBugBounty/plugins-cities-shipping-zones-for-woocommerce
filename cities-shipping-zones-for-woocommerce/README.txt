@@ -2,9 +2,9 @@
 Contributors: condless
 Tags: dropdown, city, shipping zone, shipping method
 Requires at least: 5.2
-Tested up to: 7.0
+Tested up to: 7.1
 Requires PHP: 7.0
-Stable tag: 1.3.2
+Stable tag: 1.3.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -77,14 +77,16 @@ The cities list must be minimized. if it's slow only in the frontend this could 
 
 == Changelog ==
 
-= 1.3.2 - May 28, 2026 =
+= 1.3.3 - August 13, 2026 =
 * Enhancement - WordPress version compatibility
 
+= 1.3.2 - May 28, 2026 =
+* Enhancement - WordPress version compatibility
 
 = 1.3.1 - December 23, 2025 =
 * Enhancement - WordPress version compatibility
 
-= 1.3 - May 8, 2025 =
+= 1.3.0 - May 8, 2025 =
 * Enhancement - WordPress version compatibility
 
 = 1.2.9 - November 12, 2024 =
@@ -114,7 +116,7 @@ The cities list must be minimized. if it's slow only in the frontend this could 
 = 1.2.1 - December 22, 2022 =
 * Enhancement - Filters for states names
 
-= 1.2 - October 23, 2022 =
+= 1.2.0 - October 23, 2022 =
 * Enhancement - Filters for shipping methods and shipping zones
 
 = 1.1.9 - August 19, 2022 =
@@ -146,7 +148,7 @@ The cities list must be minimized. if it's slow only in the frontend this could 
 = 1.1.1 - May 25, 2021 =
 * Dev - Reconfiguring the shipping zones and the store country is required if you applied the plugin on the following countries: Italy (Bologne/Pistoia), UAE
 
-= 1.1 - April 7, 2021 =
+= 1.1.0 - April 7, 2021 =
 * Dev - Reconfiguring the shipping zones and the store country is required if you applied the plugin on the following countries: Côte d'Ivoire, Kuwait, Latvia, Malta, Pakistan, Peru, Saint Vincent and the Grenadines, South Africa and Sri Lanka
 
 = 1.0.9 - March 12, 2021 =
@@ -176,5 +178,5 @@ The cities list must be minimized. if it's slow only in the frontend this could 
 = 1.0.1 - April 5, 2020 =
 * i18n - Supported Countries
 
-= 1.0 - March 5, 2020 =
+= 1.0.0 - March 5, 2020 =
 * Initial release
